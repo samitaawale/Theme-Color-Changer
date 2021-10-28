@@ -1,0 +1,39 @@
+body{
+    margin: 3em;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+h1{
+    line-height: 1.25;
+    margin: 2em 0 0;
+}
+p{
+    margin: .5em 0;
+}
+#switch{
+    list-style: none;
+    overflow: hidden;
+}
+
+#switch li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#redButton{
+    background-color: red;
+}
+#yellowButton{
+    background-color: yellow;
+}
+#blueButton{
+    background-color: blue;
+}
+#greenButton{
+    background-color: green;
+}
